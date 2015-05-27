@@ -8,6 +8,7 @@ body{
 	width:100px;
 	font-size: 15px;
 	outline:none;
+	border-style: none;
 }
 #tabR{
 	color:red;
@@ -40,11 +41,14 @@ h2 {
 }
 
 #tab1:focus{
+	transition: background-color ease .5s;
 	background-color:#F14336;
 }
 #tab2:focus{
+	transition: background-color ease .5s;
 	background-color:#56E765;
 }
 #tab3:focus{
+	transition: background-color ease .5s;
 	background-color: #1DADE9;
 }
