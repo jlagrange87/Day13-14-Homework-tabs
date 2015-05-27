@@ -7,6 +7,7 @@ body{
 .tabstyle{
 	width:100px;
 	font-size: 15px;
+	outline:none;
 }
 #tabR{
 	color:red;
@@ -36,4 +37,14 @@ p{
 }
 h2 {
 	margin-left: 2%;
+}
+
+#tab1:focus{
+	background-color:#F14336;
+}
+#tab2:focus{
+	background-color:#56E765;
+}
+#tab3:focus{
+	background-color: #1DADE9;
 }
